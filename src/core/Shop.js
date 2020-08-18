@@ -11,8 +11,8 @@ const Shop = () => {
         filters: { category: [], price: [] }
     });
     const [categories, setCategories] = useState([]);
-    const [setError] = useState(false);
-    const [limit, setLimit] = useState(6);
+    const [ setError] = useState(false);
+    const [limit] = useState(6);
     const [skip, setSkip] = useState(0);
     const [size, setSize] = useState(0);
     const [filteredResults, setFilteredResults] = useState([]);
